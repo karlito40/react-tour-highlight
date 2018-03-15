@@ -1,0 +1,22 @@
+.reacttour_tooltip {
+  background-color: black;
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+
+.reacttour_tooltip.right {
+  left: 100%;
+}
+
+.reacttour_tooltip.left {
+  right: 100%;
+}
+
+.reacttour_tooltip.top {
+  bottom: 100%;
+}
+
+.reacttour_tooltip.bottom {
+  top: 100%
+}

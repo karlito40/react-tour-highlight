@@ -1,0 +1,19 @@
+.reacttour_step {
+  z-index: 9999;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.reacttour_mask_layer {
+  position: fixed;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.reacttour_mask_layer + * {
+  position: relative;
+  z-index: 10001;
+}

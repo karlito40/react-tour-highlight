@@ -1,0 +1,39 @@
+{
+  "name": "react-tour-highlight",
+  "version": "0.0.1",
+  "description": "Add a step by step guide to your app",
+  "main": "build/main.js",
+  "dependencies": {
+    "deep-object-diff": "^1.1.0",
+    "deepmerge": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "postcss-loader": "^2.1.1",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode production --watch",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "tour",
+    "walkthrough",
+    "react-component",
+    "tooltips",
+    "guide"
+  ],
+  "author": "karlito40",
+  "license": "ISC"
+}
