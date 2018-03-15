@@ -1,8 +1,11 @@
-This component allows you to create a customizable guide on your site. It exports ```TourStep``` which provide a way to encapsulate any component into a simple step/highlight for your walkthrough.
+This component allows you to create a customizable guide.
 
+It exports ```TourStep``` which provide a way to encapsulate any component into a simple step/highlight for your walkthrough.
 
 
 ```TourStep```accept any component as a ```tooltip```propertie but you can use ```TourTooltip``` as a default behaviour.
+
+Your html will be keep the same. Nothing is inject.
 
 ### Warning
 
